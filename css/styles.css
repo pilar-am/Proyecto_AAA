@@ -53,7 +53,7 @@ html {
 }
 
 body, p {
-	color: #787976; 
+	color: black; 
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 }
 
@@ -165,9 +165,9 @@ strong {
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #14bf98;
+	border: 0.125rem solid #095e4b;
 	border-radius: 0.25rem;
-	background-color: #14bf98;
+	background-color: #095e4b;
 	color: #fff;
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
@@ -176,7 +176,7 @@ strong {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #14bf98;
+	color: #095e4b;
 	text-decoration: none;
 }
 
@@ -1196,8 +1196,8 @@ input[type='checkbox'] {
 
 .slider .swiper-button-prev:focus,
 .slider .swiper-button-next:focus {
-	/* even if you can't see it chrome you can see it on mobile device */
-	outline: none;
+	/* even if you can't see it chrome you can see it on mobile device    outline: none; */
+	outline: 2px solid black;
 }
 
 .slider .swiper-button-prev {
@@ -1747,10 +1747,9 @@ input[type='checkbox'] {
 
 .copyright p,
 .copyright a {
-	color: #dfe5ec;
-	text-decoration: none;
+	color: white;
+	
 }
-
 
 /**********************************/
 /*     19. Back To Top Button     */
@@ -1838,6 +1837,11 @@ a:hover.back-to-top {
 	margin-top: 1.75rem;
 }
 
+.a_link{
+	color:white;
+
+}
+
 
 /*****************************/
 /*     21. Media Queries     */
@@ -1876,7 +1880,7 @@ a:hover.back-to-top {
 	
 	.navbar-custom .nav-item .nav-link:hover,
 	.navbar-custom .nav-item .nav-link.active {
-		color: #14bf98;
+		color:#77f0d5;
 	}
 
 	.navbar-custom.top-nav-collapse {
